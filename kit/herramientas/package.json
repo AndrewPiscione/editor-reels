@@ -1,0 +1,8 @@
+{
+  "name": "editor-reels-herramientas",
+  "private": true,
+  "dependencies": {
+    "@remotion/install-whisper-cpp": "4.0.535",
+    "capcut-cli": "0.29.0"
+  }
+}

@@ -1,0 +1,463 @@
+{
+  "_como_usar": "Plantilla de brief. Copiar a proyectos/<reel>/briefs/brief_v01.json y adaptar: rutas, frases (texto EXACTO de la transcripción), tiempos en segundos del video fuente y el perfil de marca. Los destacados, gráficos y transiciones son EJEMPLOS de un reel real: reemplazarlos según la historia de este video. Explicación de cada parte: ver la guía (secciones 0 y 3–13).",
+  "_recorrido_emocional": [
+    "0–3,6 GANCHO / intriga: tu versión IA pregunta '¿Esto lo digo yo? ¿O no?' -> título progresivo abajo (portada)",
+    "3,6–8,5 TENSIÓN: 'la IA puede copiar tu cara y tu voz… ver y escuchar ya no alcanza' -> riser lento + destacado detrás de la cabeza",
+    "8,5 CHOQUE / revelación: corte de la IA a vos real -> golpe alarmante + oscurecimiento + medio segundo de silencio",
+    "8,5–20,2 AMENAZA: 'imagínense si yo… qué puede llegar a hacer alguien que quiere robar una identidad' -> música de tensión, zoom que se cierra, golpes",
+    "20,2–26,8 AMENAZA CONCRETA: bancos, seguros, biometría, identidad -> chips de vidrio que aparecen al nombrarlos",
+    "26,8–29 LO MÁS GRAVE: 'no están listas para lo que se viene' -> zoom 130 %, alarma grave, chips en rojo, música casi muda",
+    "29–fin SALIDA: 'por eso seguí a <marca>' -> beat tech, caja de seguir donde señala, 'comentá GUÍA', fundido a la firma"
+  ],
+  "version": "v01",
+  "proyecto_capcut": "mi-reel v01",
+  "original": "proyectos/mi-reel/graficos/video-fuente_v01.mp4",
+  "audio_16k": "proyectos/mi-reel/transcripciones/audio-16k.wav",
+  "transcripcion": "proyectos/mi-reel/transcripciones/palabras.json",
+  "carpeta_graficos": "proyectos/mi-reel/graficos",
+  "ancho": 1080,
+  "alto": 1920,
+  "fps": 30,
+  "cortes": {
+    "umbral_db": -35,
+    "forzar": [
+      3.6,
+      8.5,
+      9.9,
+      20.9,
+      27.55,
+      29.7
+    ],
+    "zonas": [
+      {
+        "hasta": 8.5,
+        "pausa_minima": 9,
+        "margen": 0.2,
+        "tramo_maximo": 4.0,
+        "nota": "clip IA: sin cortes"
+      },
+      {
+        "hasta": 9.9,
+        "pausa_minima": 9,
+        "margen": 0.2,
+        "tramo_maximo": 9,
+        "nota": "toma de la computadora + giro de cámara: no se corta"
+      },
+      {
+        "hasta": 20.9,
+        "pausa_minima": 0.5,
+        "margen": 0.18,
+        "tramo_maximo": 3.0,
+        "zoom_progresivo": [
+          1.0,
+          1.06,
+          1.12,
+          1.18,
+          1.22
+        ],
+        "nota": "amenaza: el zoom se va cerrando"
+      },
+      {
+        "hasta": 29.7,
+        "pausa_minima": 9,
+        "margen": 0.3,
+        "tramo_maximo": 3.2,
+        "nota": "parte grave: pausas naturales"
+      },
+      {
+        "hasta": 36.7,
+        "pausa_minima": 0.5,
+        "margen": 0.15,
+        "tramo_maximo": 3.0
+      },
+      {
+        "hasta": 1000000000.0,
+        "pausa_minima": 9,
+        "margen": 0.15,
+        "tramo_maximo": 3.0,
+        "nota": "final: sin cortes, para que la última palabra termine antes del fundido"
+      }
+    ],
+    "quitar": [
+      [
+        17.68,
+        18.05
+      ]
+    ]
+  },
+  "zoom": {
+    "alternos": [
+      1.14,
+      1.0,
+      1.22,
+      1.06
+    ],
+    "destacado": 1.08,
+    "grafico": null,
+    "compensar_cara": 0.4,
+    "forzados": [
+      {
+        "desde_original": 0.0,
+        "escala": 1.0,
+        "nota": "gancho/portada"
+      },
+      {
+        "desde_original": 27.55,
+        "escala": 1.15,
+        "nota": "'no están listas': 115 % para que el destacado entre arriba de la cabeza"
+      },
+      {
+        "desde_original": 8.5,
+        "escala": 1.0,
+        "nota": "pantalla de la compu, sin zoom"
+      }
+    ],
+    "compensar": false
+  },
+  "captions": {
+    "resaltar": [
+      "IA",
+      "inteligencia",
+      "artificial",
+      "cara",
+      "voz",
+      "realista",
+      "robar",
+      "identidad",
+      "bancos",
+      "seguros",
+      "biometría",
+      "listas",
+      "guía",
+      "hackeos"
+    ],
+    "correcciones": {},
+    "duracion_minima": 0.25,
+    "max_tras_palabra": 0.45,
+    "altura_maxima": 0.8,
+    "altura_arriba": 0.12,
+    "altura_minima": 0.6,
+    "alto": 0.05,
+    "separacion": 0.03,
+    "pelo": 0.07,
+    "detras_de_la_cabeza": {
+      "alto": 0.085,
+      "pelo": 0.05,
+      "tapado": 0.0,
+      "duracion_minima": 0.3,
+      "altura_minima": 0.055,
+      "solo": [
+        "realista",
+        "bancos",
+        "hackeos"
+      ],
+      "separacion_minima": 4.0,
+      "margen": 0.015,
+      "duracion_maxima": 0.9
+    },
+    "cambios_de_plano": [
+      4.6
+    ],
+    "silencio_db": -40,
+    "ajuste_ataque": [
+      -0.25,
+      0.3
+    ],
+    "sin_voz": [
+      [
+        8.5,
+        9.8
+      ]
+    ],
+    "nombres_propios": [
+      "IA"
+    ],
+    "no_separar": []
+  },
+  "destacados": [
+    {
+      "frase": "Esto lo digo yo O no",
+      "fin_original": 3.88,
+      "top": 72,
+      "recortar": false,
+      "ocultar_captions": true,
+      "zoom": 1.0,
+      "lineas": [
+        {
+          "texto": "¿Esto lo digo yo?",
+          "estilo": "titulo",
+          "desde": 0.35
+        },
+        {
+          "texto": "¿O no?",
+          "estilo": "titulo-verde",
+          "desde": 2.45
+        }
+      ],
+      "nota": "gancho y portada: abajo, sobre el mentón/remera, sin tapar la boca"
+    },
+    {
+      "frase": "Ver y escuchar ya no alcanza",
+      "top": 7,
+      "extra": 0.0,
+      "ocultar_captions": true,
+      "lineas": [
+        {
+          "texto": "Ver y escuchar",
+          "estilo": "italic"
+        },
+        {
+          "texto": "ya no alcanza",
+          "estilo": "bold"
+        }
+      ],
+      "fin_original": 8.5,
+      "top_auto": true,
+      "tapado": 0.0,
+      "margen": 0.012
+    },
+    {
+      "frase": "no están listas para lo que se viene",
+      "top": 7,
+      "extra": 0.1,
+      "ocultar_captions": true,
+      "zoom": 1.15,
+      "lineas": [
+        {
+          "texto": "No están listas",
+          "estilo": "bold"
+        },
+        {
+          "texto": "para lo que se viene",
+          "estilo": "italic"
+        }
+      ],
+      "top_auto": true,
+      "tapado": 0.0,
+      "margen": 0.012
+    }
+  ],
+  "graficos": [
+    {
+      "tipo": "etiqueta",
+      "texto": "Este no soy yo",
+      "inicio_original": 3.35,
+      "fin_original": 6.85,
+      "top": 9.5,
+      "nota": "en el silencio tras '¿O no?' y mientras se ve la versión IA"
+    },
+    {
+      "tipo": "lista",
+      "frase": "Las empresas como los bancos los seguros y todos los que te piden tu biometría y tu identidad",
+      "extra": 1.4,
+      "top": 72,
+      "items": [
+        {
+          "texto": "Bancos",
+          "icono": "banco",
+          "frase": "los bancos",
+          "grupo": "empresas"
+        },
+        {
+          "texto": "Seguros",
+          "icono": "escudo",
+          "frase": "los seguros",
+          "grupo": "empresas"
+        },
+        {
+          "texto": "Y todas…",
+          "icono": "edificio",
+          "frase": "y todos los que",
+          "grupo": "empresas"
+        },
+        {
+          "texto": "Biometría",
+          "icono": "huella",
+          "frase": "tu biometría",
+          "grupo": "datos"
+        },
+        {
+          "texto": "Identidad",
+          "icono": "identidad",
+          "frase": "y tu identidad",
+          "grupo": "datos"
+        }
+      ],
+      "conector": {
+        "texto": "te piden",
+        "frase": "te piden"
+      },
+      "alerta_frase": "no están listas",
+      "sonido": "audio/sfx/whoosh-suave.wav",
+      "volumen": 0.12
+    },
+    {
+      "tipo": "escaneo",
+      "frase": "tu biometría",
+      "adelanto": 0.0,
+      "extra": 0.25,
+      "sonido": "audio/sfx/escaneo-facial.wav",
+      "volumen": 0.18,
+      "nota": "toma la biometría de la cara"
+    },
+    {
+      "tipo": "cedula",
+      "frase": "tu identidad",
+      "adelanto": 0.0,
+      "extra": 0.3,
+      "sonido": "audio/sfx/whoosh-suave.wav",
+      "volumen": 0.12,
+      "arriba_de_cabeza": true
+    },
+    {
+      "tipo": "seguir",
+      "frase": "Seguí a <marca> para enterarte de lo que se viene",
+      "adelanto": 0.45,
+      "extra": 0.0,
+      "sonido": "audio/sfx/seguir.wav",
+      "volumen": 0.5,
+      "nota": "entra cuando terminás de señalar arriba a la izquierda",
+      "texto": "tu_usuario"
+    },
+    {
+      "tipo": "comentario",
+      "arriba": "comentá",
+      "texto": "GUÍA",
+      "frase": "guía en los comentarios",
+      "adelanto": -0.05,
+      "extra": 0.5,
+      "ocultar_captions": true,
+      "sonido": "audio/sfx/revelacion.wav",
+      "volumen": 0.5,
+      "debajo_de_cara": true
+    }
+  ],
+  "transiciones": [
+    {
+      "corte_original": 8.5,
+      "antes": 0.8,
+      "despues": 0.5,
+      "intensidad": 1.0,
+      "nota": "revelación IA -> real (el sonido lo da el remate del riser)"
+    },
+    {
+      "corte_original": 20.9,
+      "antes": 0.35,
+      "despues": 0.45,
+      "intensidad": 0.45,
+      "sonido_subida": "audio/sfx/whoosh-suave.wav",
+      "antes_sonido": 0.25,
+      "volumen_subida": 0.14
+    },
+    {
+      "corte_original": 27.55,
+      "antes": 0.12,
+      "despues": 1.8,
+      "intensidad": 0.55,
+      "sonido_corte": "audio/sfx/alarma-grave.wav",
+      "volumen_corte": 0.45,
+      "nota": "lo más grave"
+    },
+    {
+      "corte_original": 29.7,
+      "antes": 0.35,
+      "despues": 0.45,
+      "intensidad": 0.45,
+      "sonido_subida": "audio/sfx/whoosh-suave.wav",
+      "antes_sonido": 0.25,
+      "volumen_subida": 0.14
+    }
+  ],
+  "risers": [
+    {
+      "desde_original": 3.6,
+      "hasta_original": 8.5,
+      "tipo": "oscuro",
+      "volumen": 0.07,
+      "culmina": "audio/sfx/golpe-miedo.wav",
+      "volumen_culmina": 0.5,
+      "nota": "variante oscura y más baja; remate de miedo tipo tráiler"
+    }
+  ],
+  "musica": {
+    "desde_frase": "Imagínense",
+    "adelanto": 0.4,
+    "hasta_frase": "Por eso seguí",
+    "hasta_inicio": true,
+    "extra": 0.4,
+    "salida": 0.9,
+    "golpes_en": [
+      "robar una identidad",
+      "qué es lo que puede",
+      "Las empresas"
+    ],
+    "volumen": 0.3,
+    "atenuar": [
+      {
+        "desde_frase": "no están listas",
+        "hasta_frase": "Por eso seguí",
+        "ganancia": 0.2
+      }
+    ]
+  },
+  "musica_cierre": {
+    "desde_frase": "Por eso seguí",
+    "adelanto": -0.3,
+    "hasta_reel": 0,
+    "volumen": 0.35,
+    "entrada": 0.4,
+    "salida": 1.6
+  },
+  "firma": null,
+  "ganancia_efectos": 2.0,
+  "caras": [
+    {
+      "desde_original": 0.0,
+      "centro": 0.45,
+      "menton": 0.8,
+      "nota": "IA en primer plano"
+    },
+    {
+      "desde_original": 4.6,
+      "centro": 0.3,
+      "menton": 0.47,
+      "nota": "IA se aleja (plano medio)"
+    },
+    {
+      "desde_original": 8.5,
+      "centro": 0.4,
+      "menton": 0.6,
+      "nota": "clip 2, cámara alta"
+    },
+    {
+      "desde_original": 20.9,
+      "centro": 0.4,
+      "menton": 0.57,
+      "nota": "clip 3"
+    },
+    {
+      "desde_original": 29.7,
+      "centro": 0.37,
+      "menton": 0.51,
+      "nota": "clip 4"
+    }
+  ],
+  "caras_archivo": "proyectos/mi-reel/transcripciones/caras.json",
+  "personas_archivo": "proyectos/mi-reel/transcripciones/personas.json",
+  "mascara_remotion": {
+    "carpeta": "mascaras/mi-reel",
+    "fps": 30
+  },
+  "_firma_ejemplo": {
+    "archivo": "marca/cierre.mp4",
+    "duracion": 5.5,
+    "ancho": 1080,
+    "alto": 1350,
+    "fundido": 0.6,
+    "video_remotion": "fuentes/cierre.mp4",
+    "audio": "audio/sfx/cierre.wav",
+    "volumen": 1.0,
+    "desvanecer_audio": 0.5,
+    "_nota": "si la marca tiene video de cierre, renombrar este campo a 'firma' (y copiar el video también a motion/public/fuentes/)"
+  }
+}

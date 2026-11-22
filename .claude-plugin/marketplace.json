@@ -1,0 +1,11 @@
+{
+  "name": "editor-reels",
+  "owner": { "name": "Andrew Piscione" },
+  "plugins": [
+    {
+      "name": "editor-reels",
+      "source": "./",
+      "description": "Editor de reels con criterio profesional: guiones, edición, motion graphics y CapCut, con instalación guiada."
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "_como_usar": "Para Combinar (varios clips en orden). Copiar a proyectos/<reel>/briefs/clips.json. Los videos se copian a motion/public/fuentes/<reel>/ (Remotion no sigue enlaces simbólicos). desde/hasta = recorte de cada clip; brillo/temperatura igualan las tomas; caras se completa con herramientas/caras.",
+  "clips": [
+    {
+      "video": "fuentes/mi-reel/c1.mov",
+      "desde": 0.0,
+      "hasta": 10.0,
+      "brillo": 1.0,
+      "temperatura": 0.0
+    }
+  ],
+  "contraste": 1.08,
+  "saturacion": 0.84,
+  "brillo": 0.97,
+  "sombrasFrias": 0.22,
+  "lucesCalidas": 0.18,
+  "vineta": 0.4,
+  "luzRostro": 0.35,
+  "caras": []
+}

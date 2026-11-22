@@ -1,0 +1,6 @@
+node_modules/
+whisper.cpp/
+.DS_Store
+proyectos/*
+!proyectos/.gitkeep
+motion/public/

@@ -1,0 +1,7 @@
+{
+  "name": "editor-reels",
+  "version": "1.0.0",
+  "description": "Editor de reels con criterio profesional para Claude Code: guiones, cortes, captions al ritmo de la voz, texto detrás de la persona, motion graphics (Remotion), sonido, color y armado en CapCut. Incluye instalación guiada para Mac.",
+  "author": { "name": "Andrew Piscione" },
+  "keywords": ["reels", "video", "capcut", "remotion", "captions", "edicion"]
+}
